@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="566.0" prefWidth="278.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.ies.puerto.controller.GameController">
+   <children>
+      <ImageView fitHeight="674.0" fitWidth="445.0" layoutX="-6.0" layoutY="-100.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/fondoapp.png" />
+         </image>
+      </ImageView>
+      <Text fill="#ff6600" layoutX="3.0" layoutY="49.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="3.0" text="Usuario:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#25e13b" layoutX="3.0" layoutY="95.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="3.0" text="Nivel:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fx:id="nivel" fill="#00ffb2" layoutX="63.0" layoutY="95.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="2.0" text="facil">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#282424" height="11.0" layoutX="130.0" layoutY="44.0" stroke="BLACK" strokeType="INSIDE" width="122.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#282424" height="35.0" layoutX="-51.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="11.0" />
+      <Circle fx:id="head" fill="WHITE" layoutX="133.0" layoutY="98.0" radius="18.0" stroke="RED" strokeType="INSIDE" strokeWidth="5.0" visible="false" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#282424" height="175.0" layoutX="235.0" layoutY="45.0" stroke="BLACK" strokeType="INSIDE" width="14.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#282424" height="18.0" layoutX="116.0" layoutY="202.0" stroke="BLACK" strokeType="INSIDE" width="160.0" />
+      <Text fill="#4f00f7" layoutX="104.0" layoutY="276.0" stroke="#2b3030" strokeType="OUTSIDE" strokeWidth="2.0" text="Palabra: ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fx:id="textPalabra" fill="#282424" layoutX="205.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" " />
+      <TextField fx:id="palabraText" layoutX="106.0" layoutY="290.0" promptText="Escriba una letra" />
+      <Text fx:id="textMensaje" layoutX="118.0" layoutY="340.0" strokeType="OUTSIDE" strokeWidth="0.0" text="       " wrappingWidth="136.66000366210938" />
+      <Button fx:id="buttonRegistrar" layoutX="134.0" layoutY="390.0" mnemonicParsing="false" onAction="#ahorcado" style="-fx-border-color: red; -fx-border-radius: 3; -fx-border-width: 3; -fx-background-color: gray;" text="Aceptar" textFill="WHITE" />
+      <Button fx:id="buttonBack" layoutX="3.0" layoutY="489.0" mnemonicParsing="false" onAction="#goBack" style="-fx-background-color: gray; -fx-border-color: red; -fx-border-radius: 3; -fx-border-width: 3;" text="Volver Atras" textFill="WHITE" />
+      <Text fx:id="mensajeText" fill="#282424" layoutX="110.0" layoutY="358.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" " wrappingWidth="161.0800018310547" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#282424" height="35.0" layoutX="128.0" layoutY="45.0" stroke="BLACK" strokeType="INSIDE" width="4.0" />
+      <Rectangle fx:id="body" arcHeight="5.0" arcWidth="5.0" fill="#282424" height="35.0" layoutX="128.0" layoutY="115.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="11.0" />
+      <Rectangle fx:id="leg2" arcHeight="5.0" arcWidth="5.0" fill="#282424" height="36.0" layoutX="123.0" layoutY="150.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="4.0" />
+      <Rectangle fx:id="leg1" arcHeight="5.0" arcWidth="5.0" fill="#282424" height="35.0" layoutX="142.0" layoutY="151.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="4.0" />
+      <Rectangle fx:id="arm1" arcHeight="5.0" arcWidth="5.0" fill="#282424" height="35.0" layoutX="153.0" layoutY="115.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="4.0" />
+      <Rectangle fx:id="arm2" arcHeight="5.0" arcWidth="5.0" fill="#282424" height="35.0" layoutX="107.0" layoutY="115.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="4.0" />
+   </children>
+</Pane>

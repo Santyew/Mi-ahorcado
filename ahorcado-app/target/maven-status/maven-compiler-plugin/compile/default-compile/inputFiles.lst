@@ -1,0 +1,14 @@
+/home/santiago/Escritorio/ahorcado-app/src/main/java/es/ies/puerto/controller/RecoverPasswordController.java
+/home/santiago/Escritorio/ahorcado-app/src/main/java/es/ies/puerto/controller/PerfilController.java
+/home/santiago/Escritorio/ahorcado-app/src/main/java/es/ies/puerto/controller/LoginController.java
+/home/santiago/Escritorio/ahorcado-app/src/main/java/es/ies/puerto/controller/UsuariosController.java
+/home/santiago/Escritorio/ahorcado-app/src/main/java/es/ies/puerto/controller/abstractas/AbstractController.java
+/home/santiago/Escritorio/ahorcado-app/src/main/java/es/ies/puerto/model/Palabras.java
+/home/santiago/Escritorio/ahorcado-app/src/main/java/es/ies/puerto/controller/RegistroController.java
+/home/santiago/Escritorio/ahorcado-app/src/main/java/es/ies/puerto/model/Usuario.java
+/home/santiago/Escritorio/ahorcado-app/src/main/java/module-info.java
+/home/santiago/Escritorio/ahorcado-app/src/main/java/es/ies/puerto/PrincipalApplication.java
+/home/santiago/Escritorio/ahorcado-app/src/main/java/es/ies/puerto/controller/GameController.java
+/home/santiago/Escritorio/ahorcado-app/src/main/java/es/ies/puerto/model/Palabra.java
+/home/santiago/Escritorio/ahorcado-app/src/main/java/es/ies/puerto/model/Usuarios.java
+/home/santiago/Escritorio/ahorcado-app/src/main/java/es/ies/puerto/model/Bbdd.java

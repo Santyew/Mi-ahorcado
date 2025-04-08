@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="567.0" prefWidth="283.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.ies.puerto.controller.PerfilController">
+   <children>
+      <ImageView fitHeight="592.0" fitWidth="416.0" layoutX="-4.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/fondoapp.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="goBack" alignment="TOP_CENTER" layoutX="4.0" layoutY="472.0" onAction="#goBack" prefHeight="26.0" prefWidth="104.0" style="-fx-background-color: gray; -fx-border-color: red; -fx-background-radius: 9; -fx-border-radius: 9; -fx-border-width: 3;" text="Volver Atrás" textAlignment="CENTER" textFill="WHITE" />
+      <Text fx:id="welcomeText" fill="#ff6600" layoutX="99.0" layoutY="40.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="3.0" text="Nombre">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fx:id="nameText" layoutX="10.0" layoutY="10.0" text=" " />
+      <TextField fx:id="nombreTextFiled" layoutX="56.0" layoutY="64.0" promptText="Inserte nombre" />
+      <Text fx:id="welcomeText1" fill="#eb15d9" layoutX="87.0" layoutY="130.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="3.0" text="Contraseña">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fx:id="passwordText" layoutX="10.0" layoutY="10.0" text=" " />
+      <PasswordField fx:id="passwordTextField" layoutX="56.0" layoutY="159.0" promptText="Inserte contraseña" />
+      <Text fx:id="welcomeText111" fill="#00f8cf" layoutX="114.0" layoutY="224.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="3.0" text="Email">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fx:id="emailText" layoutX="10.0" layoutY="10.0" text=" " />
+      <TextField fx:id="emailTextFiled" layoutX="56.0" layoutY="248.0" promptText="Inserte email" />
+      <Button fx:id="saveChangesButton" alignment="TOP_CENTER" layoutX="73.0" layoutY="324.0" onAction="#saveChanges" prefHeight="26.0" prefWidth="139.0" style="-fx-background-color: gray; -fx-border-color: red; -fx-border-radius: 9; -fx-background-radius: 9; -fx-border-width: 3;" text="Guardar Cambios" textAlignment="CENTER" textFill="#f8f8f8" />
+      <Text fx:id="mensaje" layoutX="10.0" layoutY="10.0" text=" " />
+      <Button fx:id="jugar" layoutX="99.0" layoutY="385.0" mnemonicParsing="false" onAction="#jugar" prefHeight="24.0" prefWidth="86.0" style="-fx-background-color: blue marine; -fx-border-color: green; -fx-background-radius: 9; -fx-border-radius: 9; -fx-border-width: 3;" text="Jugar" textFill="#96a413" />
+   </children>
+</Pane>
