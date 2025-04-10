@@ -52,3 +52,4 @@ mvn exec:java -Dexec.mainClass="com.yourpackage.MainClass"
 | Recuperar contraseña | ✅      |
 | Registrar usuarios   | ✅      | 
 | Ver lista de usuarios| ✅      | 
+| Acceder al juego     | ✅      | 
